@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className="flex flex-col items-center justify-center min-h-screen py-4 px-4 gap-y-4 text-center">
         <h1 className="text-3xl font-bold">
-          Start building with Reservoir Kit
+          Start building with ReservoirKit 🛠️
         </h1>
         <p className="text-gray-400">
           NextJS (Typescript), ReservoirKit, RainbowKit, Wagmi, TailwindCSS
@@ -30,6 +30,17 @@ const Home: NextPage = () => {
         <ConnectButton />
         <RkBidModal />
       </main>
+      {/* Fork me on Github banner */}
+      <a
+        href="https://github.com/reservoirprotocol/reservoir-kit-starter/fork"
+        target="_blank"
+        rel="noreferrer"
+        className="absolute top-[50px] left-[-60px] -rotate-45 p-1 bg-green-700"
+      >
+        <div className="text-white px-8 py-1 border-b border-t border-dotted w-[250px] text-center">
+          Fork me on GitHub
+        </div>
+      </a>
     </div>
   );
 };
