@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           rel="noreferrer"
           className="text-blue-600 visited:text-purple-600"
         >
-          Checkout our docs to learn more
+          Check out our docs to learn more
         </a>
         <ConnectButton />
         <RkBidModal />
