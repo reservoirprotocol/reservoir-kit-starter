@@ -1,4 +1,4 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
+This is a [ReservoirKit](https://docs.reservoir.tools/docs/reservoirkit-ui) + [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
 
 ## Getting Started
 
@@ -16,11 +16,11 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 To learn more about this stack, take a look at the following resources:
 
+- [ReservoirKit Documentation](https://docs.reservoir.tools/docs/reservoirkit-ui) - Learn how to add marketplace functionality and UI into your project
 - [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
 - [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
 - [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
-
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
+- [Tailwind Documentation](https://tailwindcss.com/)
 
 ## Deploy on Vercel
 
