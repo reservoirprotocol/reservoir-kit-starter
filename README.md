@@ -1,3 +1,6 @@
+# ReservoirKit Starter Project
+
+
 This is a [ReservoirKit](https://docs.reservoir.tools/docs/reservoirkit-ui) + [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
 
 ## Getting Started
