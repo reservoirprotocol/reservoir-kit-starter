@@ -1,7 +1,6 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import type { NextPage } from "next";
 import Head from "next/head";
-import { RkBidModal } from "../components/BidModal";
 
 const Home: NextPage = () => {
   return (
@@ -14,13 +13,13 @@ const Home: NextPage = () => {
 
       <main className="flex flex-col items-center justify-center min-h-screen py-4 px-4 gap-y-4 text-center">
         <h1 className="text-3xl font-bold">
-          NFTs are the most important aspect of on-boarding the next 1 billion users to web3. 🛠️
+          NFTs are the most important aspect of on-boarding the next 1 billion users to web3.
         </h1>
         <p className="text-gray-400">
-          NFTs on Layer2 Ethereum are the next largest growth opportunity in all of web3. Support the marketplace built for L2.
+          Support the NFT marketplace built for L2
         </p>
         <a
-          href="https://https://discord.gg/nftearth"
+          href="https://discord.gg/nftearth"
           target="_blank"
           rel="noreferrer"
           className="text-blue-600 visited:text-purple-600"
@@ -28,7 +27,6 @@ const Home: NextPage = () => {
          Join us in Discord to learn more!
         </a>
         <ConnectButton />
-        <RkBidModal />
       </main>
       {/* Fork me on Github banner */}
       <a
@@ -38,7 +36,7 @@ const Home: NextPage = () => {
         className="absolute top-[50px] left-[-60px] -rotate-45 p-1 bg-green-700"
       >
         <div className="text-white px-8 py-1 border-b border-t border-dotted w-[250px] text-center">
-          Check out our live NFT Marketplace!
+         Visit NFTEarth Marketplace
         </div>
       </a>
     </div>
