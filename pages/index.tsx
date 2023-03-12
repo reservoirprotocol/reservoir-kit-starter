@@ -7,38 +7,38 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <Head>
-        <title>ReservoirKit Starter Project</title>
-        <meta name="description" content="ReservoirKit Starter Project" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Support NFTEarth!</title>
+        <meta name="description" content="Support NFTEarth" />
+        <link rel="icon" href="https://i.imgur.com/BCH7hIb.png" />
       </Head>
 
       <main className="flex flex-col items-center justify-center min-h-screen py-4 px-4 gap-y-4 text-center">
         <h1 className="text-3xl font-bold">
-          Start building with ReservoirKit 🛠️
+          NFTs are the most important aspect of on-boarding the next 1 billion users to web3. 🛠️
         </h1>
         <p className="text-gray-400">
-          NextJS (Typescript), ReservoirKit, RainbowKit, Wagmi, TailwindCSS
+          NFTs on Layer2 Ethereum are the next largest growth opportunity in all of web3. Support the marketplace built for L2.
         </p>
         <a
-          href="https://docs.reservoir.tools/docs/reservoirkit-ui"
+          href="https://https://discord.gg/nftearth"
           target="_blank"
           rel="noreferrer"
           className="text-blue-600 visited:text-purple-600"
         >
-          Check out our docs to learn more
+         Join us in Discord to learn more!
         </a>
         <ConnectButton />
         <RkBidModal />
       </main>
       {/* Fork me on Github banner */}
       <a
-        href="https://github.com/reservoirprotocol/reservoir-kit-starter/fork"
+        href="https://nftearth.exchange"
         target="_blank"
         rel="noreferrer"
         className="absolute top-[50px] left-[-60px] -rotate-45 p-1 bg-green-700"
       >
         <div className="text-white px-8 py-1 border-b border-t border-dotted w-[250px] text-center">
-          Fork me on GitHub
+          Check out our live NFT Marketplace!
         </div>
       </a>
     </div>

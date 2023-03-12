@@ -7,7 +7,7 @@ export const RkBidModal = () => (
         Place Bid Example
       </button>
     }
-    collectionId="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb"
+    collectionId="0x66Deb6cC4d65dc9CB02875DC5E8751d71Fa5D50E"
     onBidComplete={(data) => {
       console.log("Bid Complete", data);
     }}

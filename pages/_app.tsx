@@ -10,17 +10,15 @@ import { ReservoirKitProvider } from "@reservoir0x/reservoir-kit-ui";
 
 const { chains, provider, webSocketProvider } = configureChains(
   [
-    mainnet,
-    polygon,
     optimism,
     arbitrum,
-    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true" ? [goerli] : []),
+    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "false" ? [goerli] : []),
   ],
   [
     alchemyProvider({
       // This is Alchemy's default API key.
       // You can get your own at https://dashboard.alchemyapi.io
-      apiKey: "_gg7wSSi0KMBsdKnGVfHDueq6xMB9EkC",
+      apiKey: "SZGF3X-GuiXsq75KGa8DZOtJiOuPkTdx",
     }),
     publicProvider(),
   ]
@@ -44,13 +42,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       options={{
         chains: [
           {
-            id: 1,
-            baseApiUrl: "https://api.reservoir.tools",
+            id: 10,
+            baseApiUrl: "https://api-optimism.reservoir.tools/",
             default: true,
-            apiKey: "YOUR_KEY", // Get started with an api key here: https://docs.reservoir.tools/reference/rate-limits
+            apiKey: "a5ec23ef-b358-5faa-8ed6-eaf6924b9191", // Get started with an api key here: https://docs.reservoir.tools/reference/rate-limits
           },
         ],
-        source: "YOUR_SOURCE",
+        source: "nftearth.exchange",
       }}
     >
       <WagmiConfig client={wagmiClient}>
