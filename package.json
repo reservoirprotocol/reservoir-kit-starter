@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.16",
     "@rainbow-me/rainbowkit": "^0.10.0",
     "@reservoir0x/reservoir-kit-ui": "^0.10.1",
     "ethers": "^5.0.0",
